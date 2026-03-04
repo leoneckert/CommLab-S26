@@ -1,0 +1,88 @@
+body{
+    margin: 0;
+    background-color: khaki;
+}
+.mainWrapper{
+    background-color: black;
+    height: 200vh;
+    width: 100%;
+    max-width: 800px;
+    margin: auto;
+}
+#headlineWrapper{
+    background-color: lightblue;
+}
+#headlineWrapper h1{
+    text-align: center;
+}
+
+.navButton{
+    background-color: darksalmon;
+    width: 100px;
+    height: 23px;
+    text-align: center;
+    outline: 1px white solid;
+    display: inline-block;
+}
+
+#navWrapper{
+    outline: 2px dotted red;
+    /* width: 415px; */
+    /* margin: auto; */
+    text-align: center;
+}
+
+#contentWrapper{
+    display: flex;
+
+
+}
+
+#contentWrapper div{
+    height: 400px;
+    color: white;
+    outline: white dotted 1px;
+    font-size: 40px;
+    
+}
+#contentWrapper .left{
+    flex-grow: 2;
+}
+#contentWrapper .right{
+    flex-grow: 1;
+}
+
+#headerWrapper{
+    background-color: aquamarine;
+    display: flex;
+    justify-content: space-between;
+}
+#headerWrapper div{
+    
+    background-color: rgb(204, 204, 255);
+    font-size: 40px;
+}
+
+#headerWrapper span{
+    outline: black 1px dotted;
+    margin-right: 20px;
+}
+
+.carousel{
+    outline: red 1px solid;
+    color: white;
+    /* display: flex; */
+    /* overflow: scroll; */
+    overflow: scroll;
+    
+}
+.slider{
+    outline: rgb(212, 255, 0) 1px solid;
+    width: 1300px;
+    
+}
+
+.slider div{
+    width: 180px;
+    display: inline-block;
+}
