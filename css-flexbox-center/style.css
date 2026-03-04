@@ -1,0 +1,25 @@
+body{
+    margin: 0;
+}
+
+.container{
+    outline: 2px dotted black;
+    width: 100%;
+    max-width: 500px;
+    margin: auto;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    overflow: scroll;
+}
+.container p{
+    margin: 0;
+}
+
+.item{
+    width: 100%;
+    max-width: 300px;
+    outline: 2px dashed red;
+}

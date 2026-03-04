@@ -1,0 +1,112 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    border-top: 3px solid #129AED;
+}
+
+#inline-block{
+    display: inline-block;
+}
+
+#iconWrapper{
+    font-size: x-large;
+    font-weight: 800;
+    width: max-content;
+    display: inline-block;
+    height:fit-content;
+
+    background-color: white;
+    border:none;
+}
+#iconWrapper:hover{
+    background-color: #e3e4e7;
+    border-radius: 10px;
+}
+
+.navbar{
+    width: 80vw;
+    margin: auto;
+}
+
+.header{
+    display: inline-block;
+    margin-left: 20px;
+}
+
+.pageButton{
+    display: inline-block;
+    padding: 10px;
+    padding-bottom: 10px;
+    border-radius: 10px;
+    margin-right: 30px;
+    border: none;
+    background-color: white;
+    color: gray;
+}
+
+.pageButton:hover{
+    background-color: #e3e4e7;
+}
+
+.sideBar{
+    height: 100%;
+    border: 1px dashed green;
+    display: inline-block;
+    width: 100%;
+    padding: 10px;
+    max-width: 10%;
+    text-align: center;    
+
+    /* CODE TAKEN FROM https://www.w3schools.com/cssref/pr_pos_vertical-align.php */
+    vertical-align: top; 
+}
+
+
+.sideBar button{
+    padding: 10px;
+    margin-top: 20px;
+}
+.sideBar button:last-child{
+    margin-bottom: 20px;
+}
+
+.questionWrapper{
+    display: inline-block;
+    width: 87.79%;
+}
+
+.questionWrapper h3{
+  text-align: left;
+  padding-bottom: 20px;
+}
+
+.questions{
+    padding: 10px;
+}
+
+
+.mainPage{
+    height: 100%;
+    width: 1200px;
+    border: 1px dashed red;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 10px;
+    text-align: center;
+    
+
+}
+
+#border-bottom{
+    border-bottom: 1px solid rgb(164, 163, 163);
+}
+#border-right{
+    border-right: 1px solid rgb(164, 163, 163);
+}
+#border-left{
+    border-left: 1px solid rgb(164, 163, 163);
+}
+#border-top{
+    border-top: 1px solid rgb(164, 163, 163);
+}

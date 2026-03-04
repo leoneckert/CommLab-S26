@@ -1,0 +1,121 @@
+body{
+    margin:0;
+    /* background-color:rgb(255, 255, 255); */
+    background-image: url('images/map.jpg');
+    background-size: cover;
+    background-position: center; 
+}
+
+.infobar{
+    width:40%;
+    height:100vh;
+    background-color: rgb(251, 251, 251);
+}
+
+.infobar_topimg{
+    width:100%;
+    /* height: 250px;  */
+}
+
+.infobar_headerwrapper{
+    padding-top:16px;
+    padding-left:24px;
+    padding-right:24px;
+    /* background-color: beige; */
+}
+
+.infobar_header_h1{
+    font-size: 22px;
+    color:rgba(0, 0, 0, 0.834);
+    font-family:Poppins;
+    margin:0;
+}
+
+.infobar_header_h2{
+    margin-top: 4px;
+    color:rgba(0, 0, 0, 0.668);
+    font-family:Poppins;
+    margin:0
+}
+
+.infobar_header_ratinginfo{
+    margin-top: 8px;
+}
+
+.infobar_header_ratinginfo_star{
+    display:inline-flex;
+    font-size:14px;
+    align-items: center;
+}
+
+.ratingfont{
+    font-size: 14px; 
+    color: rgba(0, 0, 0, 0.668); 
+    font-family:Poppins;
+    line-height: 14px;
+}
+
+.star_list{
+    padding-left:6px;
+    padding-right:4px;
+    display:inline-flex;
+    height:14px;
+}
+
+.icon_star{
+    width:14px;
+    height:13px;
+    background-size: 14px 14px;
+    background-image: url(//maps.gstatic.com/consumer/images/icons/2x/ic_star_rate_14.png);
+}
+
+.no{
+    background-image: url(//maps.gstatic.com/consumer/images/icons/2x/ic_star_rate_empty_14.png);
+}
+
+.infobar_header_category {
+    margin: 4px 0 0 0;
+    font-size: 14px;
+    color: rgba(0, 0, 0, 0.668);
+    font-family: Poppins;
+}
+
+.category_link {
+    font-size: 14px;
+    color: rgba(0, 0, 0, 0.668);
+    font-family: Poppins;
+    text-decoration: none;
+}
+
+.category_link:hover {
+    text-decoration: underline;
+}
+
+.infobar_tabs {
+    text-align: center;
+}
+
+.infobar_tab {
+    display: inline-block;
+    width:24%;
+    font-size: 14px;
+    font-family: Poppins;
+    font-weight: 500;
+    color: rgba(0, 0, 0, 0.668);
+    text-decoration: none;
+    padding: 12px 0px;
+    margin:0;
+    border-bottom: 3px solid transparent;  
+}
+
+.infobar_tab:hover {
+    color: rgba(0, 0, 0, 0.834);
+}
+
+.infobar_tab_active {
+    display: inline-block;
+    width:24%;
+    color: rgb(30, 142, 137);
+    border-bottom: 3px solid rgb(30, 142, 137);
+    margin: 0;
+}

@@ -1,0 +1,94 @@
+body {
+  margin: 0;
+  font-family: Helvetica, Arial, sans-serif;
+  background-color: #fafafa;
+}
+
+/*unfinished*/
+.sidebar {
+  width: 72px;
+  height: 100vh;
+  background-color: #e0e0e0;
+  position: fixed;
+  top: 0;
+  left: 0;
+
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 20px;
+  box-sizing: border-box;
+}
+
+.header {
+  position: fixed;
+  top: 0;
+  left: 72px;
+  right: 0;
+
+  height: 90px;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  padding: 0 20px;
+}
+
+.top-bar {
+  display: flex;
+  gap: 16px;
+  width: 100%;
+}
+
+.search-container {
+  flex: 1;
+}
+
+.search-box {
+  display: flex;
+  align-items: center;
+  height: 48px;
+  background-color: #f2f2f2;
+  border-radius: 20px;
+  padding: 0 16px;
+}
+
+.search-icon {
+  margin-right: 20px;
+  font-size: 16px;
+}
+
+.avatar {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+
+.arrow {
+  font-size: 14px;
+}
+
+/*unfinished*/
+.content {
+  margin-left: 72px;
+  margin-top: 110px;
+  padding: 20px;
+}
+
+.card {
+  width: 200px;
+  height: 300px;
+  margin: 10px;
+  padding: 20px;
+
+  background-color: white;
+  border-radius: 16px;
+
+  display: inline-block;
+  vertical-align: top;
+}
+
+.card:hover {
+  background-color: #eaeaea;
+}
+
+/*When I try display there is a flex and I go to learn how it function.*/

@@ -1,0 +1,53 @@
+body{
+    margin: 0;
+}
+
+p{
+    color: rgb(44, 69, 44);
+    background-color: rgb(255, 161, 211);
+    /* text-transform: uppercase; */
+
+    /* next line picks web-safe fonts: */
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    /* text-align: right; */
+    /* letter-spacing: 5px; */ 
+    padding: 10px;
+    margin: 0;
+}
+
+div{
+    /* border-width: 1px;
+    border-color: black;
+    border-style: solid; */
+
+    border: 4px black dashed;
+    width: 200px;
+    /* margin: 50px; */
+    margin-left: 50px;
+    margin-bottom: 10px;
+    padding: 20px;
+
+}
+
+div p{
+    background-color: aquamarine;
+}
+
+/* span{
+    text-decoration: underline;
+} */
+
+.highlight1{
+    text-decoration: underline; 
+}
+
+
+.highlight2{
+    color: red;
+}
+
+#specialParagraph{
+    border: rgb(0, 106, 255) 4px dotted;
+}
+
+

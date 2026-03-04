@@ -1,0 +1,26 @@
+body{
+    margin:0;
+}
+.punch{
+    width: 200px;
+    background-color: rgb(253, 225, 225);
+    
+}
+
+.punchWrapper{
+    border: 1px dashed black;
+    width: 24%;
+    margin-bottom: 30px;
+    /* margin-left: 10px; */
+    /* padding: 5px; */
+    /* margin: auto; */
+    /* display: inline-block; */
+}
+
+.punchWrapper:nth-child(even){
+    border: red solid 5px;
+}
+
+.punchWrapper:hover{
+    border: 4px solid blue;
+}

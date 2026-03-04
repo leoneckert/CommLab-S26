@@ -1,0 +1,24 @@
+body{
+    background-color: beige;
+}
+
+.container{
+    display: flex;
+    outline: 3px blue dotted;
+    /* flex-wrap: wrap; */
+    /* flex-direction: column-reverse; */
+
+    justify-content: space-between;
+    align-items: center;
+}   
+
+.item{
+    width: 200px;
+    outline: 1px red dashed;
+}
+.second{
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
