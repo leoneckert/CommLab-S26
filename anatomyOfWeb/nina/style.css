@@ -1,5 +1,11 @@
 body{
     margin: 0;
+    background-color: rgb(246, 247, 248);
+}
+
+.body{
+    background-color: white;
+    min-width: 1300px;
 }
 
 .header{
@@ -10,28 +16,48 @@ body{
 
 .nyuWrapper{
     width: 140px;
-    margin-left: 18px;
     padding-left: 5px;
-    padding-top: 22px;
+    padding-top: 15.5px;
     display: inline-block;
+    position: relative;
+    top: 6.5px;
+    left: 24.5px;
 }
 
-.nyuWrapper:hover{
+/*.nyuWrapper:hover{
     border-top: 4px solid rgb(2, 111, 191);
-}
+}*/
 
 .navbarAWrapper{
     display: inline-block;
     margin-left: 600px;
+    padding-top: 26.5px;
+    padding-left: 5px;
+    padding-right: 5px;
+    position: relative;
+    top: -2px;
 }
 
 .navbarAWrapper:hover{
     border-top: 4px solid rgb(2, 111, 191);
 }
 
+.dotsWrapper{
+    display:inline-block;
+    position: relative;
+    top: 5px;
+    left: 8px;
+}
+
 .navbarBWrapper{
     display: inline-block;
     margin-left: 40px;
+    padding-top: 31.5px;
+    padding-left: 5px;
+    padding-right: 5px;
+    position: relative;
+    left: -30px;
+    top: -7px;
 }
 
 .navbarBWrapper:hover{
@@ -41,6 +67,12 @@ body{
 .navbarCWrapper{
     display: inline-block;
     margin-left: 15px;
+    padding-top: 25.5px;
+    padding-left: 5px;
+    padding-right: 5px;
+    position: relative;
+    top: 0px;
+    left: -33px;
 }
 
 .navbarCWrapper:hover{
@@ -50,26 +82,49 @@ body{
 .navbarDWrapper{
     display: inline-block;
     margin-left: 15px;
+    padding-top: 22px;
+    padding-left: 5px;
+    padding-right: 5px;
+    position: relative;
+    top: -0.5px;
+    left: -34px;
 }
 
 .navbarDWrapper:hover{
     border-top: 4px solid rgb(2, 111, 191);
 }
 
+.dots2Wrapper{
+    display: inline-block;
+    position: relative;
+    top: 5px;
+    left: -25px;
+}
+
 .navbarEWrapper{
     display: inline-block;
     margin-left: 40px;
+    padding-top: px;
     padding-left: 5px;
     padding-right: 5px;
+    position: relative;
+    top: 4px;
+    left: -63px;
 }
 
-.navbarEWrapper:hover{
+/*.navbarEWrapper:hover{
     border-top: 4px solid rgb(2, 111, 191);
-}
+}*/
 
 .navbarFWrapper{
     display: inline-block;
     margin-left: 10px;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 23.5px;
+    position: relative;
+    left: -65px;
+    top: -2px;
 }
 
 .navbarFWrapper:hover{
@@ -77,8 +132,110 @@ body{
 }
 
 .border1{
-    margin-top: 15px;
+    margin-top: 22px;
     background-color: rgb(231, 232, 235);
     width: 100%;
     height: 1px;
+}
+
+.contents{
+    margin-left: 50px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    width: 550px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.border2{
+    background-color: rgb(231, 232, 235);
+    width: 100%;
+    height: 1px;
+}
+
+.welcome{
+    text-align: center;
+}
+
+p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+}
+
+.under{
+    width: 1167px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.courses{
+    background-color: white;
+    width: 550px;
+    height: 800px;
+    border-radius: 8px;
+    margin-top: 35px;
+    padding-top: 5px;
+    box-shadow: 0 2px 10px rgba(170, 170, 170, 0.2);
+}
+
+.mycourses{
+    margin-left: 20px;
+}
+
+.others{
+
+}
+
+.others1{
+    background-color: white;
+    width: 550px;
+    height: 500px;
+    border-radius: 8px;
+    margin-top: 35px;
+    padding-top: 10px;
+    box-shadow: 0 2px 10px rgba(170, 170, 170, 0.2);
+}
+
+.worktodo{
+    margin-left: 20px;
+}
+
+.others2{
+    background-color: white;
+    width: 550px;
+    height: 600px;
+    border-radius: 8px;
+    margin-top: 30px;
+    padding-top: 10px;
+    box-shadow: 0 2px 10px rgba(170, 170, 170, 0.2);
+}
+
+.announcements{
+    margin-left: 20px;
+}
+
+.others3{
+    background-color: white;
+    width: 550px;
+    height: 300px;
+    border-radius: 8px;
+    margin-top: 30px;
+    padding-top: 10px;
+    box-shadow: 0 2px 10px rgba(170, 170, 170, 0.2);
+}
+
+.calendar{
+    margin-left: 20px;
+}
+
+.end{
+    background-color: rgb(246, 247, 248);
+    width: 100%;
+    height: 65px;
+}
+
+.endimage{
+    text-align: center;
+    padding: 20px;
 }
