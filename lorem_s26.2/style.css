@@ -1,0 +1,19 @@
+span{
+    display: inline-block;
+    transform: translate(0px, 0px);
+
+    transition: transform 3s;
+} 
+
+/* span:hover{
+    transform: translate(0px, 50px);
+}  */
+
+.wrapper{
+    outline: 1px solid black;
+}
+
+.wrapper:hover span{
+    transform: translate(0px, 50px);
+}
+

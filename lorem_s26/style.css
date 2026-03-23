@@ -1,0 +1,41 @@
+body{
+    margin:0;
+}
+p{
+    font-size: 100px;
+    margin: 0;
+}
+p span{
+    display: block;
+    position: absolute;
+    top:0;
+    transform: translate(0px, 0px);
+}
+
+p span:nth-child(1){
+    animation: move 15s alternate infinite;
+}
+p span:nth-child(2){
+    animation: move 15s alternate 4s infinite;
+}
+p span:nth-child(3){
+    animation: move 15s alternate 8s infinite;
+}
+p span:nth-child(4){
+    animation: move 15s alternate 12s infinite;
+}
+p span:nth-child(5){
+    animation: move 15s alternate 16s infinite;
+}
+p span:nth-child(6){
+    animation: move 15s alternate 20s infinite;
+}
+
+@keyframes move{
+    from{
+       transform: translate(0px, 0px);
+    }
+    to{
+        transform: translate(0px, 700px);
+    }
+}
