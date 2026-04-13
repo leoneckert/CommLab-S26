@@ -20,5 +20,6 @@ p{
 span{
     position: relative;
     display: inline-block;
-    transition: all .5s linear;
+    transition: transform .3s;
+    
 }
