@@ -1,0 +1,30 @@
+body{
+    margin:0;
+}
+
+
+#motherDiv{
+    width: 100%;
+    height: 400vh;
+    outline: 5px dotted red;
+}
+
+.windowHeight{
+    width: 100%;
+    height: 100vh;
+}
+
+.reference{
+    background-color: aqua;
+}
+
+.heat{
+    background-color: rgb(157, 255, 0);
+    position: sticky;
+    top:0px
+}
+
+.other{
+    background-color: rgb(227, 166, 255);
+}
+

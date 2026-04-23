@@ -1,0 +1,24 @@
+body{
+    margin: 0;
+}
+.textbox{
+    width: 200px;
+    outline: 1px solid black;
+    position:fixed;
+    left: 10px;
+    
+}
+.textbox span{
+    display: inline-block;
+}
+
+
+
+.halfWindowHeight{
+    width:100%;
+    height: 50vh;
+    outline: 1px black dotted;
+    text-align: end;
+    pointer-events: none;
+    opacity: .2;
+}

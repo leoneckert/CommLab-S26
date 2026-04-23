@@ -1,4 +1,4 @@
-// What happens if we appens spans instead of p tags to the countdown box?
+// What happens if we append spans instead of p tags to the countdown box?
 
 // Challenge 1
 // when we type "move" into the box, move the box to the right
@@ -32,11 +32,21 @@ function buttonClicked(){
     if(clickCounter >= 10){
         console.log("alarm!");
         supersize(myButton);
+        // deletePage();
+        setTimeout(deletePage, 1000);
+
+
+
     }
 
 }
 
-
+function deletePage(){
+    console.log("delete");
+    // document.body.remove(); // removes the whole body
+    // document.body.innerHTML = ""
+    document.body.style.display = "none";
+}
 
 
 // challenge 2: 
@@ -58,6 +68,11 @@ function inputChanged(eventInfo){
     if(text == 'spin'){
         console.log("the value is spin, lets spin!!!!!!!");
         spin(inputBox);
+    }else if(text == 'move'){
+        console.log("move");
+        inputBox.style.transform = "translate(80px, 200px)";
+    }else{
+        inputBox.style.transform = "translate(0px, 0px)";
     }
 
     
@@ -84,18 +99,20 @@ let messageBoard = document.querySelector("#messageBoard");
 
 function appendCountdown(){
     let clicksLeft = 10 - clickCounter;
-    addMessage("press the button "  + clicksLeft +   " times");
+    // addMessage("press the button "  + clicksLeft +   " times");
+        addMessage(clicksLeft +   " ");
+
 }
 
 // appendCountdown();
-setInterval(appendCountdown, 500);
+setInterval(appendCountdown, 60);
 
 
 // function to add text to the div with id "messageboard"
 function addMessage(messagetext){
-    let p = document.createElement("p");
-    p.innerText = messagetext;
-    messageBoard.prepend(p);
+    let span = document.createElement("span");
+    span.innerText = messagetext;
+    messageBoard.prepend(span);
     
 }
 

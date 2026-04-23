@@ -1,0 +1,37 @@
+.rainDrops{
+    margin: 100px 50px;
+    outline: 1px solid red;
+    width:500px;
+    height: 200px;
+    display: flex;
+}
+
+.rainDropSlot{
+    height:100%;
+    width:20px;
+    /* flex:1; */
+    outline: 1px black solid;
+    position: relative;
+
+}
+
+.drop{
+    height: 30%;
+    background-color: blue;
+    width: 5px;
+    position: absolute;
+    transform: translateY(-100%);
+    top:0%;
+    animation: falling 1s linear infinite;
+}
+
+@keyframes falling {
+    from{
+        transform: translateY(-100%);
+        top:0%; 
+    }
+    to{
+        transform: translateY(0%);
+        top:100%; 
+    }
+}

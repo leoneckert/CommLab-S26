@@ -1,0 +1,30 @@
+
+.textbox{
+    width: 200px;
+    outline: 1px solid black;
+    height: 300px;
+    overflow: hidden;
+    position: fixed;
+    
+}
+
+/* you can comment out the next 3 brackets for fun: */
+
+#one{
+    left: 0px;
+}
+#two{
+    left: 200px;
+}
+#three{
+    left: 400px;
+}
+
+.halfWindowHeight{
+    width:100%;
+    height: 50vh;
+    outline: 1px black dotted;
+    text-align: end;
+    pointer-events: none;
+    opacity: .2;
+}
